@@ -279,24 +279,20 @@ h3{
                     $count=1; //numbering of the contents of the table
                     $limit=5; //total number of records to be displayed per page
                     
-                    if (isset($_GET["page"])) {
+                    /*if (isset($_GET["page"])) {
                       $page = $_GET["page"];
                     }else {
                       $page=1;
                     };
                     
-                    $start_from=($page-1) * $limit;
-                    $sql ="SELECT * FROM art_dash ORDER BY id ASC LIMIT $start_from, $limit";
+                    $start_from=($page-1) * $limit;*/
+                    $sql ="SELECT * FROM art_dash";
                     $result=mysqli_query($db, $sql);
                    
                     
 
               ?>
               
-                <?php
-                  $result_db= mysqli_query($db, "SELECT COUNT(id) FROM art_dash");
-                  
-                ?>
                 <div>
                   
                   <?php
@@ -345,7 +341,7 @@ h3{
                       endwhile;
                       echo "</table>";
 
-                      $result_db= mysqli_query($db, "SELECT COUNT(id) FROM art_dash");
+                      /*$result_db= mysqli_query($db, "SELECT COUNT(id) FROM art_dash");
                       $row_db=mysqli_fetch_array($result_db);
                       $total_records = $row_db[0];  
                       $total_pages = ceil($total_records / $limit); 
@@ -354,7 +350,7 @@ h3{
                       for ($i=1; $i<=$total_pages; $i++) {
                                     $pagLink .= "<li class='page-item'><a class='page-link' href='artDash.php?page=".$i."'>".$i."</a></li>";	
                       }
-                      echo $pagLink . "</ul>"; 
+                      echo $pagLink . "</ul>"; */
                       
                       
                       
@@ -485,6 +481,18 @@ h3{
     }
   }
   </script>
+  <script>
+//this is to disable inspect element
+
+$(document).bind("contextmenu",function(e) {
+  e.preventDefault();
+});
+$(document).keydown(function(e){
+  if(e.which === 123){
+    return false;
+}
+});
+</script>
 </body>
 
 </html>

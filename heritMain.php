@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <!--Icon top-->
-    <link rel="icon" type="image/png" href="../assets/img/icon.png">
+    <link rel="icon" type="image/png" href="./assets/img/icon.png">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/><!--fontawesome-->
     <!---jquery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -18,7 +18,7 @@
 @import url(http://fonts.googleapis.com/css?family=Calibri:400,300,700);
     
 body{
-    background-image: url('../assets/img/whitebg.jpg');
+    background-image: url('./assets/img/whitebg.jpg');
 }
 .thumbnail{ 
         width:210px; 
@@ -69,7 +69,7 @@ body{
     <!--Navbar start-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background: #811331;" >
         <div class="container">  
-            <a href="#" class="navbar-brand mb-0 h1"><img src="../assets/img/logonavbar.png" style="height: 40px; width: 200px;"></a>
+            <a href="#" class="navbar-brand mb-0 h1"><img src="./assets/img/logonavbar.png" style="height: 40px; width: 200px;"></a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#menunavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -129,7 +129,7 @@ body{
                     ?>
                     <div class="pt-4 pb-4">
                         <div class="media">
-                            <?php echo "<img src='../images/".$row['image']."' id class=' img-fluid thumbnail mr-3' >"; ?>
+                            <?php echo "<img src='./images/".$row['image']."' id class=' img-fluid thumbnail mr-3' >"; ?>
                             <div class="media-body">
                                 <div class="reviews-members-header">
                                     <p hidden><?php echo $row['id'];?></p>
@@ -223,24 +223,14 @@ body{
 
         <!-- Right -->
         <div>
-        <a href="" class="me-4 text-reset">
+        <a href="https://www.facebook.com/Marahuyo-Archives-104950252010107" class="me-4 text-white">
             <i class="fab fa-facebook-f"></i>
         </a>
-        <a href="" class="me-4 text-reset">
-            <i class="fab fa-twitter"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
+
+        <a href="mailto:marahuyoarchives.batangas@gmail.com" class="me-4 text-white">
             <i class="fab fa-google"></i>
         </a>
-        <a href="" class="me-4 text-reset">
-            <i class="fab fa-instagram"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-            <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-            <i class="fab fa-github"></i>
-        </a>
+
         </div>
         <!-- Right -->
     </section>
@@ -251,21 +241,7 @@ body{
         <div class="container text-center text-md-start mt-5">
         <!-- Grid row -->
         <div class="row mt-3">
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <!-- Content -->
-            <h6 class="text-uppercase fw-bold mb-4">
-                <i class="fas fa-gem me-3"></i>Marahuyo Archives
-            </h6>
-            <p>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit.
-            </p>
-            </div>
-            <!-- Grid column -->
-
-            
-
+ 
             <!-- Grid column -->
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
             <!-- Links -->
@@ -273,13 +249,13 @@ body{
                 Contents
             </h6>
             <p>
-                <a href="artMain.php" class="text-reset">Cultural Arts</a>
+                <a href="artMain.php" class="text-white">Cultural Arts</a>
             </p>
             <p>
-                <a href="heritMain.php" class="text-reset">Intangible Heritage</a>
+                <a href="heritMain.php" class="text-white">Intangible Heritage</a>
             </p>
             <p>
-                <a href="festMain.php" class="text-reset">Festive Events</a>
+                <a href="festMain.php" class="text-white">Festive Events</a>
             </p>
             
             </div>

@@ -29,7 +29,7 @@ if(mysqli_num_rows($result) > 0)
   $output .= '
   <div class="pt-4 pb-4">
   <div class="media">
-      <img src="../images/'.$row['image'].'" id class="img-fluid thumbnail mr-3">
+      <img src="./images/'.$row['image'].'" id class="img-fluid thumbnail mr-3">
       <div class="media-body">
           <div class="reviews-members-header">
               <p hidden>'.$row['id'].'</p>

@@ -26,7 +26,7 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <!--Icon top-->
-    <link rel="icon" type="image/png" href="../assets/img/icon.png">
+    <link rel="icon" type="image/png" href="./assets/img/icon.png">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/><!--fontawesome-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
@@ -119,7 +119,7 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
     <!--Navbar start-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background: #811331;" >
         <div class="container">  
-            <a href="./index.php" class="navbar-brand mb-0 h1"><img src="../assets/img/logonavbar.png" style="height: 40px; width: 200px;"></a>
+            <a href="./index.php" class="navbar-brand mb-0 h1"><img src="./assets/img/logonavbar.png" style="height: 40px; width: 200px;"></a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#menunavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -148,9 +148,9 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
     
     <div class="container-fluid">
         <section>
-            <div class="row parallax" style="background-image: url('../assets/img/bats.jpg'); filter: grayscale(10%); height:100%; background-attachment: fixed; background-position: center;background-repeat: no-repeat;background-size: cover;">
+            <div class="row parallax" style="background-image: url('./assets/img/bats.jpg'); filter: grayscale(10%); height:100%; background-attachment: fixed; background-position: center;background-repeat: no-repeat;background-size: cover;">
                 <div class="mx-auto d-flex" style="">
-                    <img class="mx-auto d-flex font-weight-bold img-fluid-sm  " height="200px" width="750px" style="background: rgb(139, 0, 0, 0.8);padding-top: 2rem; padding-bottom: 2rem; margin-top:20rem; margin-bottom:20rem;" src="../assets/img/logonavbar.png" >
+                    <img class="mx-auto d-flex font-weight-bold img-fluid-sm  " height="200px" width="750px" style="background: rgb(139, 0, 0, 0.8);padding-top: 2rem; padding-bottom: 2rem; margin-top:20rem; margin-bottom:20rem;" src="./assets/img/logonavbar.png" >
                     
                 </div>
            
@@ -272,7 +272,7 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
         
         
         <!---Explore section-->
-        <section style="background-image: url('../assets/img/whitebg.jpg')">
+        <section style="background-image: url('./assets/img/whitebg.jpg')">
             <div class="row" align="center">
                 <h3 class="mx-auto d-flex ">Explore</h3>
             </div>
@@ -287,7 +287,7 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
                         <div class="carousel-item active">
                             <div>
                                 <a href="#">
-                                <img class="d-block img-fluid" style="height: 300px; width:600px;" src="../assets/img/herit.jpg" alt="First slide">
+                                <img class="d-block img-fluid" style="height: 300px; width:600px;" src="./assets/img/herit.jpg" alt="First slide">
                                 </a>
                                 <div class="overlay-text font-weight-bold "><a href="./heritMain.php" class="text-light">Intangible Heritage</a></div>
                             </div>
@@ -295,14 +295,14 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
                         <div class="carousel-item">
                             <div>
                                 <a href="./festMain.php">
-                                <img class="d-block img-fluid" style="height: 300px; width:600px;"src="../assets/img/fest.png" alt="Second slide"></a>
+                                <img class="d-block img-fluid" style="height: 300px; width:600px;"src="./assets/img/fest.png" alt="Second slide"></a>
                                 <div class="overlay-text font-weight-bold "><a href="./festMain.php" class="text-light">Festive Events</a></div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div>
                                 <a href="./artMain.php">
-                                <img class="d-block img-fluid" style="height: 300px; width:600px;"src="../assets/img/art.jpg" alt="Third slide">
+                                <img class="d-block img-fluid" style="height: 300px; width:600px;"src="./assets/img/art.jpg" alt="Third slide">
                                 </a>
                                 <div class="overlay-text font-weight-bold "><a href="./festMain.php" class="text-light">Cultural Arts</a></div>
                             </div>
@@ -339,24 +339,14 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
 
         <!-- Right -->
         <div>
-        <a href="" class="me-4 text-reset">
+        <a href="https://www.facebook.com/Marahuyo-Archives-104950252010107" class="me-4 text-white">
             <i class="fab fa-facebook-f"></i>
         </a>
-        <a href="" class="me-4 text-reset">
-            <i class="fab fa-twitter"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
+
+        <a href="mailto:marahuyoarchives.batangas@gmail.com" class="me-4 text-white">
             <i class="fab fa-google"></i>
         </a>
-        <a href="" class="me-4 text-reset">
-            <i class="fab fa-instagram"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-            <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-            <i class="fab fa-github"></i>
-        </a>
+       
         </div>
         <!-- Right -->
     </section>
@@ -375,13 +365,13 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
                 Contents
             </h6>
             <p>
-                <a href="artMain.php" class="text-reset">Cultural Arts</a>
+                <a href="artMain.php" class="text-white">Cultural Arts</a>
             </p>
             <p>
-                <a href="heritMain.php" class="text-reset">Intangible Heritage</a>
+                <a href="heritMain.php" class="text-white">Intangible Heritage</a>
             </p>
             <p>
-                <a href="festMain.php" class="text-reset">Festive Events</a>
+                <a href="festMain.php" class="text-white">Festive Events</a>
             </p>
             
             </div>
@@ -486,7 +476,7 @@ if (sim<3) {
 });
 </script>
 
-<!--script>
+<script>
 //this is to disable inspect element
 
 $(document).bind("contextmenu",function(e) {
@@ -497,6 +487,6 @@ $(document).keydown(function(e){
     return false;
 }
 });
-</script-->
+</script>
 </body>
 </html>

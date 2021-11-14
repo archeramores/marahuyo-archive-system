@@ -1,16 +1,16 @@
 <?php
-//this is for festive events read modal
+//this is for intangible heri read modal
 $readdb=mysqli_connect("localhost","root","","file_upload");
 $id=$_POST['id'];
 
-$festquery="SELECT * FROM fest_dash WHERE id='$id' ";
-$execute=mysqli_query($readdb,$festquery);
+$heritquery="SELECT * FROM herit_dash WHERE id='$id' ";
+$execute=mysqli_query($readdb,$heritquery);
 
 $result=mysqli_fetch_assoc($execute);
 $title=$result['title'];
 $text=$result['text'];
 $location=$result['location'];
-$month=$result['month'];
+
 $image=$result['image'];
 
 $response='<form>
@@ -19,13 +19,13 @@ $response='<form>
                 </div> 
                 
                 <div class="form-group">  
-                    <p ><i><b>'.$location.', Batangas</i></p>
-                    <p>Month of '.$month.'</b></p>
+                    <p ><i><b>'.$location.', Batangas</b></i></p>
+                    
                     
                 </div>
 
                 <div class="form-group" align="center">
-                <img src="../images/'.$image.'" class="img-fluid " style="width:80%;">
+                <img src="./images/'.$image.'" class="img-fluid " style="width:80%;">
                 </div>
 
                 <div class="form-group">

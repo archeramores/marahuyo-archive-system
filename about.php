@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <!--Icon top-->
-    <link rel="icon" type="image/png" href="../assets/img/logo.png">
+    <link rel="icon" type="image/png" href="./assets/img/logo.png">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/><!--fontawesome-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
@@ -69,7 +69,7 @@
     <!--Navbar start-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background: #811331;" >
         <div class="container">  
-            <a href="#" class="navbar-brand mb-0 h1"><img src="../assets/img/logonavbar.png" style="height: 40px; width: 200px;"></a>
+            <a href="#" class="navbar-brand mb-0 h1"><img src="./assets/img/logonavbar.png" style="height: 40px; width: 200px;"></a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#menunavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -84,13 +84,9 @@
                             <li><a href="./festMain.php" class="dropdown-item">Festive Events</a></li>
                         </ul>
                     </li>
-                    
                     <li class="nav-item active"><a href="./contact.php" class="nav-link">Contact Us</a></li>
                 </ul>
-                <form class="d-flex">
-                    <input type="text" class="form-control me-2">
-                <button type="submit" class="btn btn-danger"><i class="fas fa-search"></i></button>
-            </form>
+                
             </div>
             
         </div>
@@ -100,10 +96,10 @@
     <div class="container-fluid">
         
         <div class="row">
-            <h3 class="mx-auto d-flex font-weight-bold " style="padding-top:6rem; padding-bottom: 1rem; text-transform: uppercase;">Get in touch</h3>
-        </div>
+            <h3 class="mx-auto d-flex font-weight-bold " style="padding-top:6rem; padding-bottom: 1rem; text-transform: uppercase;">About us</h3>
+        </div><hr/>
         <div class="row">
-            <p class="mx-auto d-flex text-justify p-sm-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rutrum lorem dui, in dapibus quam venenatis vitae. Nullam orci magna, sodales vel congue et, condimentum vitae risus. Suspendisse faucibus iaculis convallis. Fusce et lectus in lacus gravida luctus id non mi. Quisque mi neque, euismod non varius eget, dapibus nec nunc. Etiam efficitur varius tempor. Aenean non libero pulvinar, gravida diam at, maximus quam. In arcu sapien, consequat sit amet lobortis ut, blandit ut ligula. Aliquam ac erat odio. Phasellus erat risus, sodales at lacinia a, consequat laoreet justo. Quisque sed feugiat lorem, in placerat dolor. Phasellus velit elit, egestas et libero at, commodo sagittis massa. Nullam maximus mauris vel felis tincidunt tincidunt vel ac dolor. Suspendisse ac ante sit amet sem fringilla elementum blandit eget magna. Sed metus felis, accumsan id elit vel, vulputate malesuada est. Phasellus fringilla leo et viverra aliquam.</p>
+            <p class="mx-auto d-flex text-justify p-sm-4" style="text-indent:50px;">This website was created in order to show the people the culture of Batangas. Another goal of this website is to preserve information about Batangas' various cultures. It will support in the promotion and preservation of the province's culture, ensuring that it is not lost to the people. People will also be able to learn about Batangas culture thanks to the website. This website promotes Batangas culture and arts by preserving and showcasing the province's local culture and arts, such as cultural heritage, performances, festivals, artists, and visual arts. This website will also enable mostly in celebration of Batangueos' local achievements, heritage, and creativity.</p>
         </div>
 
        
@@ -126,24 +122,14 @@
 
         <!-- Right -->
         <div>
-        <a href="" class="me-4 text-reset">
+        <a href="https://www.facebook.com/Marahuyo-Archives-104950252010107" class="me-4 text-white">
             <i class="fab fa-facebook-f"></i>
         </a>
-        <a href="" class="me-4 text-reset">
-            <i class="fab fa-twitter"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
+        <a href="mailto:marahuyoarchives.batangas@gmail.com" class="me-4 text-white">
             <i class="fab fa-google"></i>
         </a>
-        <a href="" class="me-4 text-reset">
-            <i class="fab fa-instagram"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-            <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-            <i class="fab fa-github"></i>
-        </a>
+
+        
         </div>
         <!-- Right -->
     </section>
@@ -154,35 +140,20 @@
         <div class="container text-center text-md-start mt-5">
         <!-- Grid row -->
         <div class="row mt-3">
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <!-- Content -->
-            <h6 class="text-uppercase fw-bold mb-4">
-                <i class="fas fa-gem me-3"></i>Marahuyo Archives
-            </h6>
-            <p>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit.
-            </p>
-            </div>
-            <!-- Grid column -->
-
-            
-
-            <!-- Grid column -->
+             <!-- Grid column -->
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">
                 Contents
             </h6>
             <p>
-                <a href="artMain.php" class="text-reset">Cultural Arts</a>
+                <a href="artMain.php" class="text-white">Cultural Arts</a>
             </p>
             <p>
-                <a href="heritMain.php" class="text-reset">Intangible Heritage</a>
+                <a href="heritMain.php" class="text-white">Intangible Heritage</a>
             </p>
             <p>
-                <a href="festMain.php" class="text-reset">Festive Events</a>
+                <a href="festMain.php" class="text-white">Festive Events</a>
             </p>
             
             </div>

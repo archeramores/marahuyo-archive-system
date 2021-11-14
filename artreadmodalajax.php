@@ -25,7 +25,7 @@ $response='<form>
                 </div>
 
                 <div class="form-group" align="center">
-                <img src="../images/'.$image.'" class="img-fluid " style="width:80%;">
+                <img src="./images/'.$image.'" class="img-fluid " style="width:80%;">
                 </div>
 
                 <div class="form-group">

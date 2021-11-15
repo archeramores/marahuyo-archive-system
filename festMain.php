@@ -100,7 +100,7 @@ body{
             <h3 class="mx-auto d-flex font-weight-bold " style="padding-top:6rem; padding-bottom: 1rem;">Festive Events</h3>
         </div>
         <div class="row">
-            <p class="mx-auto d-flex text-justify p-sm-4 p-lg-4 p-md-3" style="text-indent:50px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rutrum lorem dui, in dapibus quam venenatis vitae. Nullam orci magna, sodales vel congue et, condimentum vitae risus. Suspendisse faucibus iaculis convallis. Fusce et lectus in lacus gravida luctus id non mi. Quisque mi neque, euismod non varius eget, dapibus nec nunc. Etiam efficitur varius tempor. Aenean non libero pulvinar, gravida diam at, maximus quam. In arcu sapien, consequat sit amet lobortis ut, blandit ut ligula. Aliquam ac erat odio. Phasellus erat risus, sodales at lacinia a, consequat laoreet justo. Quisque sed feugiat lorem, in placerat dolor. Phasellus velit elit, egestas et libero at, commodo sagittis massa. Nullam maximus mauris vel felis tincidunt tincidunt vel ac dolor. Suspendisse ac ante sit amet sem fringilla elementum blandit eget magna. Sed metus felis, accumsan id elit vel, vulputate malesuada est. Phasellus fringilla leo et viverra aliquam.</p>
+            <p class="mx-auto d-flex text-justify p-sm-4 p-lg-4 p-md-3" style="text-indent:50px;">A festival is an event that is usually celebrated by a community and focuses on some part of that group's religion or culture. It is frequently observed as a mela or eid, a local or national holiday. A festival is an example of glocalization as well as the interaction between high and low culture. Aside from religion and folklore, agriculture is a key origin.</p>
         </div>
 
         <!--Loop the cards from mysql-->

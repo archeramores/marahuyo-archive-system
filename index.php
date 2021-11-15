@@ -165,6 +165,7 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
             <div class="row" style="">
                 <h3 class="mx-auto mt-5 mb-5">Featured Posts</h3>
             </div>
+            <hr>
 
             <div class="card-deck d-flex mx-auto" >
                 <!--Art faeatuerfda-->
@@ -276,6 +277,7 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
             <div class="row" align="center">
                 <h3 class="mx-auto d-flex ">Explore</h3>
             </div>
+            <hr>
             <div class="row">
                 <div id="carouselExplore" class="carousel slide mx-auto d-flex" style="padding-bottom:5rem;" data-ride="carousel">
                     <ol class="carousel-indicators">

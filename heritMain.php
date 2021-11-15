@@ -98,7 +98,7 @@ body{
         
         <div class="row">
             <h3 class="mx-auto d-flex font-weight-bold " style="padding-top:6rem; padding-bottom: 1rem;">Intangible Heritage</h3>
-        </div>
+        </div><hr>
         <div class="row">
             <p class="mx-auto d-flex text-justify p-sm-4" style="text-indent:50px;">Intangible Heritage refers to the behaviors, representations, expressions, knowledge, and abilities – as well as the instruments, items, artifacts, and cultural spaces connected with them – that communities, organizations, and, in certain circumstances, individuals acknowledge as part of their Cultural Heritage.</p>
         </div>

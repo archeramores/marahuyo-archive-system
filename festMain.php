@@ -98,7 +98,7 @@ body{
         
         <div class="row">
             <h3 class="mx-auto d-flex font-weight-bold " style="padding-top:6rem; padding-bottom: 1rem;">Festive Events</h3>
-        </div>
+        </div><hr>
         <div class="row">
             <p class="mx-auto d-flex text-justify p-sm-4 p-lg-4 p-md-3" style="text-indent:50px;">A festival is an event that is usually celebrated by a community and focuses on some part of that group's religion or culture. It is frequently observed as a mela or eid, a local or national holiday. A festival is an example of glocalization as well as the interaction between high and low culture. Aside from religion and folklore, agriculture is a key origin.</p>
         </div>

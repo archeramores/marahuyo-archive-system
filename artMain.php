@@ -99,6 +99,7 @@ body{
         <div class="row">
             <h3 class="mx-auto d-flex font-weight-bold " style="padding-top:6rem; padding-bottom: 1rem;">Cultural Arts</h3>
         </div>
+        <hr>
         <div class="row">
             <p class="mx-auto d-flex text-justify p-sm-4" style="text-indent:50px;">Cultural arts are the transition and collaboration of many creative genres. The phrase encapsulates creative thinking and critique, which includes assessments of modern visual culture as well as other art forms such as visual art, literature, music, theater, cinema, dance, and so on.</p>
         </div>

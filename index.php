@@ -1,6 +1,6 @@
 <?php
 //view counter
-$viewdb=mysqli_connect("localhost","root","","main_web");
+$viewdb=mysqli_connect("remotemysql.com" , "kJPINILSBe", "9ItQywDQJ4", "kJPINILSBe");
 
 $find_counts="SELECT * FROM viewpage";
 $find_counts_qry= mysqli_query($viewdb,$find_counts);
@@ -169,7 +169,7 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
             <div class="card-deck d-flex mx-auto" >
                 <!--Art faeatuerfda-->
                 <?php
-                    $dbmain=mysqli_connect("localhost","root","", "file_upload");
+                    $dbmain=mysqli_connect("remotemysql.com" , "kJPINILSBe", "9ItQywDQJ4", "kJPINILSBe");
                     $sqlartMain ="SELECT * FROM art_dash ORDER BY RAND() LIMIT 0,1";
                     $artresult=mysqli_query($dbmain, $sqlartMain);
 
@@ -195,7 +195,7 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
 
                 <!--Festive events featured-->
                 <?php
-                    $dbmain=mysqli_connect("localhost","root","", "file_upload");
+                    $dbmain=mysqli_connect("remotemysql.com" , "kJPINILSBe", "9ItQywDQJ4", "kJPINILSBe");
                     $sqlfestMain ="SELECT * FROM fest_dash ORDER BY RAND() LIMIT 0,1";
                     $festresult=mysqli_query($dbmain, $sqlfestMain);
 
@@ -220,7 +220,7 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
                 ?>
                 <!--herit featured-->
                 <?php
-                    $dbmain=mysqli_connect("localhost","root","", "file_upload");
+                    $dbmain=mysqli_connect("remotemysql.com" , "kJPINILSBe", "9ItQywDQJ4", "kJPINILSBe");
                     $sqlheritMain ="SELECT * FROM herit_dash ORDER BY RAND() LIMIT 0,1";
                     $heritresult=mysqli_query($dbmain, $sqlheritMain);
 
@@ -405,7 +405,7 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
                 </div>
             </div>
             <?php
-                $feedbackdb=mysqli_connect("localhost","root","","main_web");
+                $feedbackdb=mysqli_connect("remotemysql.com" , "kJPINILSBe", "9ItQywDQJ4", "kJPINILSBe");
                 if(isset($_POST['submitFeedback']))
                 {
                     $rating=$_POST['rating'];

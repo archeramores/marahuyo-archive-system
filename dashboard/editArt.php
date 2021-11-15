@@ -1,6 +1,6 @@
 <?php
-$artconn= mysqli_connect("localhost", "root","");
-$artdb= mysqli_select_db($artconn, 'file_upload');
+$artconn= mysqli_connect("remotemysql.com" , "kJPINILSBe", "9ItQywDQJ4");
+$artdb= mysqli_select_db($artconn, 'kJPINILSBe');
 
 
 if (isset($_POST['updatedata'])) {

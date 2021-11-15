@@ -1,7 +1,7 @@
 <!--This p[hp file is used in order for the delete functionality of cultural arts dashboard be effective-->
 
 <?php
-$dbart=mysqli_connect("localhost", "root","", "file_upload");
+$dbart=mysqli_connect("remotemysql.com" , "kJPINILSBe", "9ItQywDQJ4", "kJPINILSBe");
 
 $id=$_GET['id'];
 $delart= mysqli_query($dbart, "DELETE FROM art_dash WHERE id='$id'" );

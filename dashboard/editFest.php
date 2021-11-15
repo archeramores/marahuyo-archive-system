@@ -1,6 +1,6 @@
 <?php
-$festconn= mysqli_connect("localhost", "root","");
-$festdb= mysqli_select_db($festconn, 'file_upload');
+$festconn= mysqli_connect("remotemysql.com" , "kJPINILSBe", "9ItQywDQJ4");
+$festdb= mysqli_select_db($festconn, 'kJPINILSBe');
 
 
 if (isset($_POST['updatedata'])) {

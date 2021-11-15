@@ -1,6 +1,6 @@
 <?php
-$heritconn= mysqli_connect("localhost", "root","");
-$heritdb= mysqli_select_db($heritconn, 'file_upload');
+$heritconn= mysqli_connect("remotemysql.com" , "kJPINILSBe", "9ItQywDQJ4");
+$heritdb= mysqli_select_db($heritconn, 'kJPINILSBe');
 
 
 if (isset($_POST['updatedata'])) {

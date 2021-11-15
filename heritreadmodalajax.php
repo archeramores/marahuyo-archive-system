@@ -1,6 +1,6 @@
 <?php
 //this is for intangible heri read modal
-$readdb=mysqli_connect("localhost","root","","file_upload");
+$readdb=mysqli_connect("remotemysql.com" , "kJPINILSBe", "9ItQywDQJ4", "kJPINILSBe");
 $id=$_POST['id'];
 
 $heritquery="SELECT * FROM herit_dash WHERE id='$id' ";

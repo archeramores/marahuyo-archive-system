@@ -137,7 +137,7 @@ $user_data= check_login($con);
                   <div class="col-7 col-md-8">
                   <div class="numbers">
                       <?php
-                        $feedbackdb=mysqli_connect("localhost","root","","main_web");
+                        $feedbackdb=mysqli_connect("remotemysql.com" , "kJPINILSBe", "9ItQywDQJ4", "kJPINILSBe");
                         $feedbacksql=mysqli_query($feedbackdb,"SELECT * FROM feedback");
                         $feedbacktotal =mysqli_num_rows($feedbacksql);
                       ?>

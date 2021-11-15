@@ -1,6 +1,6 @@
 <?php 
 
-$connect= mysqli_connect("localhost","root","","file_upload");
+$connect= mysqli_connect("remotemysql.com" , "kJPINILSBe", "9ItQywDQJ4", "kJPINILSBe");
 
 $output = '';
 if(isset($_POST["query"]))

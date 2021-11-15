@@ -1,6 +1,6 @@
 <?php
 //this is for culture art read modal
-$readdb=mysqli_connect("localhost","root","","file_upload");
+$readdb=mysqli_connect("remotemysql.com" , "kJPINILSBe", "9ItQywDQJ4", "kJPINILSBe");
 $id=$_POST['id'];
 
 $artquery="SELECT * FROM art_dash WHERE id='$id' ";

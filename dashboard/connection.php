@@ -1,9 +1,9 @@
 <?php
 
-$dbhost="localhost";
-$dbuser="root";
-$dbpass="";
-$dbname="login_dashboard";
+$dbhost="remotemysql.com";
+$dbuser="kJPINILSBe";
+$dbpass="9ItQywDQJ4";
+$dbname="kJPINILSBe";
 
 if(!$con= mysqli_connect($dbhost,$dbuser, $dbpass, $dbname))
 {

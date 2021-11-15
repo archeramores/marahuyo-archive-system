@@ -185,7 +185,7 @@
             </form>
             </div>
             <?php
-                $feedbackdb=mysqli_connect("localhost","root","","main_web");
+                $feedbackdb=mysqli_connect("remotemysql.com" , "kJPINILSBe", "9ItQywDQJ4", "kJPINILSBe");
                 if(isset($_POST['submitFeedback']))
                 {
                     $rating=$_POST['rating'];

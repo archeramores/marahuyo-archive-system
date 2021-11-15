@@ -16,7 +16,7 @@ $user_data= check_login($con);
     $target = "../images/".basename($_FILES['image']['name']);
     
     //connect to database
-    $db = mysqli_connect ("localhost" , "root", "", "file_upload");
+    $db = mysqli_connect ("remotemysql.com" , "kJPINILSBe", "9ItQywDQJ4", "kJPINILSBe");
 
     //Get all the submitted data from the form
     $image = $_FILES['image']['name']; 
@@ -311,7 +311,7 @@ h3{
               
               <?php
                     //display uploaded files from database to main page
-                    $db = mysqli_connect ("localhost" , "root", "", "file_upload");
+                    $db = mysqli_connect ("remotemysql.com" , "kJPINILSBe", "9ItQywDQJ4", "kJPINILSBe");
                     
                     $count=1; //numbering of the contents of the table
                     $limit=5; //total number of records to be displayed per page

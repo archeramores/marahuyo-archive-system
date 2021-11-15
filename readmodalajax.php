@@ -1,6 +1,6 @@
 <?php
 //this is for festive events read modal
-$readdb=mysqli_connect("localhost","root","","file_upload");
+$readdb=mysqli_connect("remotemysql.com" , "kJPINILSBe", "9ItQywDQJ4", "kJPINILSBe");
 $id=$_POST['id'];
 
 $festquery="SELECT * FROM fest_dash WHERE id='$id' ";

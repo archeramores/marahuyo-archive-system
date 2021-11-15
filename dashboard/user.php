@@ -274,8 +274,8 @@ $user_data=check_login($con);
               <?php
                   // display added accounts from database to main page
                 
-                $connection=mysqli_connect('localhost','root','');
-                mysqli_select_db($connection, 'login_dashboard');
+                $connection=mysqli_connect("remotemysql.com" , "kJPINILSBe", "9ItQywDQJ4");
+                mysqli_select_db($connection, "kJPINILSBe");
 
               
                 $result = mysqli_query($connection, 'SELECT * FROM users');

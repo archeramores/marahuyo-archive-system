@@ -69,7 +69,7 @@ body{
     <!--Navbar start-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background: #811331;" >
         <div class="container">  
-            <a href="#" class="navbar-brand mb-0 h1"><img src="./assets/img/logonavbar.png" style="height: 40px; width: 200px;"></a>
+            <a href="./index.php" class="navbar-brand mb-0 h1"><img src="./assets/img/logonavbar.png" style="height: 40px; width: 200px;"></a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#menunavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>

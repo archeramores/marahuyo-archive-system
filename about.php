@@ -69,22 +69,22 @@
     <!--Navbar start-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background: #811331;" >
         <div class="container">  
-            <a href="#" class="navbar-brand mb-0 h1"><img src="./assets/img/logonavbar.png" style="height: 40px; width: 200px;"></a>
+            <a href="https://marahuyo-archive-system.herokuapp.com/index.php" class="navbar-brand mb-0 h1"><img src="./assets/img/logonavbar.png" style="height: 40px; width: 200px;"></a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#menunavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="menunavbar">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a href="./index.php" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="https://marahuyo-archive-system.herokuapp.com/index.php" class="nav-link">Home</a></li>
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle " id="categoryDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Categories</a>
                         <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
-                            <li><a href="./festMain.php" class="dropdown-item">Intangible Heritage</a></li>
-                            <li><a href="#" class="dropdown-item">Cultural Arts</a></li>
+                            <li><a href="./heritMain.php" class="dropdown-item">Intangible Heritage</a></li>
+                            <li><a href="./artMain" class="dropdown-item">Cultural Arts</a></li>
                             <li><a href="./festMain.php" class="dropdown-item">Festive Events</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item active"><a href="./contact.php" class="nav-link">About Us</a></li>
+                    <li class="nav-item active"><a href="./about.php" class="nav-link">About Us</a></li>
                 </ul>
                 
             </div>

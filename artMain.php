@@ -108,7 +108,7 @@ body{
             <div class="bg-white rounded shadow-sm p-4 mb-4 restaurant-detailed-ratings-and-reviews">
                     
                     <?php
-                      $dbMain = mysqli_connect "remotemysql.com" , "kJPINILSBe", "9ItQywDQJ4", "kJPINILSBe");
+                      $dbMain = mysqli_connect ("remotemysql.com" , "kJPINILSBe", "9ItQywDQJ4", "kJPINILSBe");
                         
                       $count=1; //numbering of the contents of the table
                       $limit=9; //total number of records to be displayed per page

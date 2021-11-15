@@ -473,9 +473,9 @@ h3{
                         <textarea class="form-control" id="text" name="text" rows="10" placeholder="Add text description..." required></textarea>
                       </div>
                       
-                      ,
+                      
                       <div>           
-                        <input type="file" class="form-control-file" id="up_image" name="up_image">
+                        <input type="file" class="form-control-file" id="up_image" name="up_image" multiple required>
                         
                       </div>
                       <div class="modal-footer">

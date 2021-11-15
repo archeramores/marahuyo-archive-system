@@ -13,7 +13,7 @@ $user_data= check_login($con);
   if (isset($_POST['upload'])) {
 
     //path to store uploaded files
-    $target = "../images/".basename($_FILES['image']['name']);
+    $target = "./images/".basename($_FILES['image']['name']);
     
     //connect to database
     $db = mysqli_connect ("remotemysql.com" , "kJPINILSBe", "9ItQywDQJ4", "kJPINILSBe");
@@ -387,7 +387,7 @@ h3{
                           <td class='descTxt'><?php echo $row['text']; ?></td>
                           <td class="tableLoc" ><?php echo $row['location']; ?>, Batangas</td>
                           <td class="tableMonth"><?php echo $row['month']; ?></td>
-                          <td><?php echo "<img src='../images/".$row['image']."' class='tableImg'>"; ?></td>
+                          <td><?php echo "<img src='./images/".$row['image']."' class='tableImg'>"; ?></td>
                           <td>
                             <button type="button" class="btn btn-success editbtn" title="Edit this record"><i class="fa fa-pencil"></i></button>
                           </td>

@@ -112,15 +112,15 @@ body{
                         
                       $count=1; //numbering of the contents of the table
                       $limit=9; //total number of records to be displayed per page
-                      
+                      /*
                       if (isset($_GET["page"])) {
                       $page = $_GET["page"];
                       }else {
                       $page=1;
                       };
                       
-                      $start_from=($page-1) * $limit;
-                      $sqlartMain ="SELECT * FROM art_dash ORDER BY id ASC LIMIT $start_from, $limit";
+                      $start_from=($page-1) * $limit;*/
+                      $sqlartMain ="SELECT * FROM art_dash";
                       $result=mysqli_query($dbMain, $sqlartMain);
                       
                       $read = 0;
@@ -163,7 +163,7 @@ body{
 
               
                     <?php
-                        
+                        /*
                         $result_db= mysqli_query($dbMain, "SELECT COUNT(id) FROM art_dash");
                         $row_db=mysqli_fetch_array($result_db);
                         $total_records = $row_db[0];  
@@ -175,7 +175,7 @@ body{
                             
                             $pagLink .= "<li class='page-item '><a class='page-link text-white bg-danger' href='artMain.php?page=".$i."'>".$i."</a></li>";	
                         }
-                        echo $pagLink .="</ul>";
+                        echo $pagLink .="</ul>";*/
                         echo "</footer></div>"; 
 
                         

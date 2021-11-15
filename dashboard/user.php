@@ -242,17 +242,17 @@ $user_data=check_login($con);
                     <form method="post">
                       <div class="form-group">
                         <label for="exampleInputEmail1">Username</label>
-                        <input type="text" class="form-control" id="usernamefield" aria-describedby="emailHelp" placeholder="Enter username..." name="user_name_field">
+                        <input type="text" class="form-control" id="usernamefield" aria-describedby="emailHelp" placeholder="Enter username..." name="user_name_field" required>
                       </div>       
               
                       <div class="form-group">
                         <label>Password</label>
-                        <input type="password" class="form-control passadd" id="passwordfield" placeholder="Password..." name="passwordfield">
+                        <input type="password" class="form-control passadd" id="passwordfield" placeholder="Password..." name="passwordfield" required>
                       </div>
 
                       <div class="form-group">
                         <label>Confirm password</label>
-                        <input type="password" class="form-control passadd" id="confirmpasswordfield" placeholder="Password..." name="confirmpasswordfield">
+                        <input type="password" class="form-control passadd" id="confirmpasswordfield" placeholder="Password..." name="confirmpasswordfield" required>
                       </div>
                       
                       <div class="float-right mb-6">

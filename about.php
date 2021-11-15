@@ -84,7 +84,7 @@
                             <li><a href="./festMain.php" class="dropdown-item">Festive Events</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item active"><a href="./contact.php" class="nav-link">Contact Us</a></li>
+                    <li class="nav-item active"><a href="./contact.php" class="nav-link">About Us</a></li>
                 </ul>
                 
             </div>

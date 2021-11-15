@@ -597,7 +597,7 @@ h3{
   </script>
   <script>
 //this is to disable inspect element
-/*
+
 $(document).bind("contextmenu",function(e) {
   e.preventDefault();
 });
@@ -605,7 +605,7 @@ $(document).keydown(function(e){
   if(e.which === 123){
     return false;
 }
-});*/
+});
 </script>
 </body>
 

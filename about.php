@@ -34,7 +34,7 @@
     }
 
     .rating>label:before {
-        margin: 0;
+        margin: auto;
         font-size: 20px;
         font-family: FontAwesome;
         display: flex;
@@ -48,7 +48,7 @@
 
     .rating>label {
         color: #ddd;
-        float: right;
+        float: auto;
     }
 
     .rating>[id^="star"]:checked~label,
@@ -179,9 +179,12 @@
                          
                     </fieldset>
                 
-                <input type="text" id="username" name="username" placeholder="Name(optional)">
-                <textarea name="comment" id="comment" rows="5"  placeholder="Add comment..."></textarea>
-                <input type="submit" value="Submit" name="submitFeedback" id="submitFeedback" style="cursor:pointer;">
+                    <div style="float:auto; padding:auto;">
+                                <input type="text" id="username" name="username" placeholder="Name(optional)">
+                            </div>
+                            <div style="padding:auto; float:auto;">
+                                <textarea name="comment" id="comment" rows="5"  placeholder="Add comment..."></textarea>
+                            </div>
             </form>
             </div>
             <?php

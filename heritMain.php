@@ -287,6 +287,7 @@ body{
                             <div style="padding:auto; float:auto;">
                                 <textarea name="comment" id="comment" rows="5"  placeholder="Add comment..."></textarea>
                             </div>
+                            <input type="submit" value="Submit" name="submitFeedback" id="submitFeedback" style="cursor:pointer;">
             </form>
             </div>
             <?php

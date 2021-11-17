@@ -80,7 +80,7 @@
                         <a href="#" class="nav-link dropdown-toggle " id="categoryDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Categories</a>
                         <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
                             <li><a href="./heritMain.php" class="dropdown-item">Intangible Heritage</a></li>
-                            <li><a href="./artMain" class="dropdown-item">Cultural Arts</a></li>
+                            <li><a href="./artMain.php" class="dropdown-item">Cultural Arts</a></li>
                             <li><a href="./festMain.php" class="dropdown-item">Festive Events</a></li>
                         </ul>
                     </li>

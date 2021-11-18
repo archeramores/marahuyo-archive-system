@@ -137,6 +137,7 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
                     <li class="nav-item"><a href="./about.php" class="nav-link">About</a></li>
                     
                 </ul>
+                <a href="http://marahuyo-archive-system.herokuapp.com/dashboard/login.php"><button type="button" class="btn btn-primary" value="Login">Login</button></a>
                 
               
             </div>

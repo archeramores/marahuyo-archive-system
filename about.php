@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-<title>Festive Events|Marahuyo</title>
+<title>About us|Marahuyo</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -99,7 +99,7 @@
             <h3 class="mx-auto d-flex font-weight-bold " style="padding-top:6rem; padding-bottom: 1rem; text-transform: uppercase;">About us</h3>
         </div><hr/>
         <div class="row">
-            <p class="mx-auto d-flex text-justify p-sm-4" style="text-indent:50px;">This website was created in order to show the people the culture of Batangas. Another goal of this website is to preserve information about Batangas' various cultures. It will support in the promotion and preservation of the province's culture, ensuring that it is not lost to the people. People will also be able to learn about Batangas culture thanks to the website. This website promotes Batangas culture and arts by preserving and showcasing the province's local culture and arts, such as cultural heritage, performances, festivals, artists, and visual arts. This website will also enable mostly in celebration of Batangueos' local achievements, heritage, and creativity.</p>
+            <p class="mx-auto d-flex text-justify p-sm-4" style="text-indent:50px;">This website was created in order to show the people the culture of Batangas. Another goal of this website is to preserve information about Batangas' various cultures. It will support in the promotion and preservation of the province's culture, ensuring that it is not lost to the people. People will also be able to learn about Batangas culture thanks to the website. This website promotes Batangas culture and arts by preserving and showcasing the province's local culture and arts, such as cultural heritage, performances, festivals, artists, and visual arts. This website will also enable mostly in celebration of Batangueños' local achievements, heritage, and creativity.</p>
         </div>
 
        

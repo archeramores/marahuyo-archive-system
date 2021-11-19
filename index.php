@@ -482,7 +482,7 @@ if (sim<3) {
 });
 </script>
 
-<script>
+<!--script>
 //this is to disable inspect element
 
 $(document).bind("contextmenu",function(e) {
@@ -493,6 +493,6 @@ $(document).keydown(function(e){
     return false;
 }
 });
-</script>
+</script-->
 </body>
 </html>

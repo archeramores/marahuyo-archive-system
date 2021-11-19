@@ -184,7 +184,7 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
                     
                     
                     <div class="card-body text-dark">
-                        <h5 class="card-title" style="text-transform: uppercase; text-overflow: ellipsis; "><b><?php echo $artrow['title'];?></b></h5>
+                        <h5 class="card-title" style="text-transform: uppercase; text-overflow: ellipsis; overflow: hidden "><b><?php echo $artrow['title'];?></b></h5>
                         <p class="card-text"><i>by: <?php echo $artrow['artist'];?></i></p>
                     </div>
                     <div>
@@ -210,7 +210,7 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
                     
                     
                     <div class="card-body text-dark">
-                        <h5 class="card-title" style="text-transform: uppercase;"><b><?php echo $festrow['title'];?></b></h5>
+                        <h5 class="card-title" style="text-transform: uppercase; text-overflow: ellipsis; overflow: hidden"><b><?php echo $festrow['title'];?></b></h5>
                         <p class="card-text"><i><?php echo $festrow['month'];?></i></p>
                     </div>
                     <div>
@@ -235,7 +235,7 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
                     
                     
                     <div class="card-body text-dark">
-                        <h5 class="card-title" style="text-transform: uppercase;"><b><?php echo $heritrow['title'];?></b></h5>
+                        <h5 class="card-title" style="text-transform: uppercase;text-overflow: ellipsis; overflow: hidden"><b><?php echo $heritrow['title'];?></b></h5>
                         <p class="card-text"><i><?php echo $heritrow['location'];?></i></p>
                     </div>
                     <div>

@@ -134,7 +134,7 @@ body{
                             <div class="media-body">
                                 <div class="reviews-members-header">
                                     <p hidden><?php echo $row['id'];?></p>
-                                    <h4 class="mb-1" id="title" name="title" style="text-transform: uppercase;"><?php echo $row['title']; ?></h4>
+                                    <h4 class="mb-1" id="title" name="title" style="text-transform: uppercase; text-overflow: ellipsis; overflow: hidden;"><?php echo $row['title']; ?></h4>
                                     
                                 </div>
                                 <div class="reviews-members-body">

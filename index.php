@@ -184,7 +184,7 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
                     
                     
                     <div class="card-body text-dark">
-                        <h5 class="card-title" style="text-transform: uppercase;"><b><?php echo $artrow['title'];?></b></h5>
+                        <h5 class="card-title" style="text-transform: uppercase; text-overflow: ellipsis; "><b><?php echo $artrow['title'];?></b></h5>
                         <p class="card-text"><i>by: <?php echo $artrow['artist'];?></i></p>
                     </div>
                     <div>

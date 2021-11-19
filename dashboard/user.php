@@ -84,7 +84,7 @@ $user_data=check_login($con);
 <head>
   <meta charset="utf-8" />
   <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
-  <link rel="icon" type="image/png" href="../assets/img/logo.png">
+  <link rel="icon" type="image/png" href="../assets/img/icon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
     Marahuyo | Admin 
@@ -136,7 +136,7 @@ $user_data=check_login($con);
       <div class="logo">
         <a href="#" class="simple-text logo-mini">
           <div class="logo-image-small">
-            <img src="../assets/img/logo.png">
+            <img src="../assets/img/icon.png">
           </div>
           <!-- <p>CT</p> -->
         </a>

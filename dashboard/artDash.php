@@ -123,7 +123,7 @@ h3{
       <div class="logo">
         <a href="#" class="simple-text logo-mini">
           <div class="logo-image-small">
-            <img src="../assets/img/logo.png">
+            <img src="../assets/img/icon.png">
           </div>
           <!-- <p>CT</p> -->
         </a>

@@ -65,6 +65,7 @@ $user_data= check_login($con);
   <link href="../assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
   <!--Font awesome icons-->
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   
   <link rel="stylesheet" href="https://unpkg.com/placeholder-loading/dist/css/placeholder-loading.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -158,7 +159,12 @@ h3{
               <p>Festive Events</p>
             </a>
           </li>
-
+          <li>
+            <a href="./songDash.php">
+              <i class="fas fa-music"></i>
+              <p>Cultural Music</p>
+            </a>
+          </li>
           
           <li>
             <a href="./user.php">

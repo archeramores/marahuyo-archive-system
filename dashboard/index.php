@@ -77,6 +77,12 @@ $user_data= check_login($con);
               <p>Festive Events</p>
             </a>
           </li>
+          <li>
+            <a href="./songDash.php">
+              <i class="fas fa-music"></i>
+              <p>Cultural Music</p>
+            </a>
+          </li>
 
           
           <li>

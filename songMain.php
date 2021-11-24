@@ -101,7 +101,7 @@ body{
             <h3 class="mx-auto d-flex font-weight-bold " style="padding-top:6rem; padding-bottom: 1rem;">Cultural Music</h3>
         </div><hr>
         <div class="row">
-            <p class="mx-auto d-flex text-justify p-sm-4 p-lg-4 p-md-3" style="text-indent:50px;"></p>
+            <p class="mx-auto d-flex text-justify p-sm-4 p-lg-4 p-md-3" style="text-indent:50px;">Cultural music refers to how a person's culture influences their music cognition, such as their tastes, emotion perception, and musical recall. Beginning in infancy, musical preferences are inclined toward culturally recognizable musical traditions, and adults' assessment of the mood of a musical composition is dependent on both culturally unique and universal structural elements. Furthermore, people's musical recall capacities are stronger for culturally known music than for culturally unfamiliar music. Culture has a strong influence on music cognition as a result of the sum of these effects.</p>
         </div>
 
         <!--Loop the cards from mysql-->

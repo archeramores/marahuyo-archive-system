@@ -246,6 +246,32 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
                 <?php
                     }
                 ?>
+
+                <!--Cultural music featured-->
+                <?php
+                    $dbmain=mysqli_connect("remotemysql.com" , "kJPINILSBe", "9ItQywDQJ4", "kJPINILSBe");
+                    $sqlsongMain ="SELECT * FROM song_dash ORDER BY RAND() LIMIT 0,1";
+                    $songresult=mysqli_query($dbmain, $sqlsongMain);
+
+                    while ($songrow = mysqli_fetch_assoc($songresult)) {
+                        
+                ?>
+                <div class="card border-dark mb-3 mx-auto" style="max-width: 18rem;">
+                    
+                    <div class="card-header">Cultural Music</div>
+                    
+                    
+                    <div class="card-body text-dark">
+                        <h5 class="card-title" style="text-transform: uppercase; text-overflow: ellipsis; overflow: hidden"><b><?php echo $songrow['title'];?></b></h5>
+                        <audio controls><?php echo "<source src='./songs/".$songrow['artist']."' type='audio/mpeg'>" ;?></audio>
+                    </div>
+                    <div>
+                        <a href="./songMain.php"><button type="button" class="btn btn-danger float-right mr-2 readBtn " name="festreadBtn" data-toggle="modal" data-id="<?php echo $festrow['id'];?>">Go to festive events <i class="fas fa-angle-right"></i></button></a></br></br>
+                     </div>
+                </div>
+                <?php
+                    }
+                ?>
                 
             </div>
         </section><!--Most vewed posts end-->
@@ -286,6 +312,7 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
                         <li data-target="#carouselExplore" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExplore" data-slide-to="1"></li>
                         <li data-target="#carouselExplore" data-slide-to="2"></li>
+                        <li data-target="#carouselExplore" data-slide-to="3"></li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -309,6 +336,13 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
                                 <img class="d-block img-fluid" style="height: 300px; width:600px;"src="./assets/img/art.jpg" alt="Third slide">
                                 </a>
                                 <div class="overlay-text font-weight-bold "><a href="./festMain.php" class="text-light">Cultural Arts</a></div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div>
+                                <a href="./festMain.php">
+                                <img class="d-block img-fluid" style="height: 300px; width:600px;"src="./assets/img/artexp.png" alt="Fourth slide"></a>
+                                <div class="overlay-text font-weight-bold "><a href="./songMain.php" class="text-light">Cultural Music</a></div>
                             </div>
                         </div>
                     </div>

@@ -340,7 +340,7 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
                         </div>
                         <div class="carousel-item">
                             <div>
-                                <a href="./festMain.php">
+                                <a href="./songMain.php">
                                 <img class="d-block img-fluid" style="height: 300px; width:600px;"src="./assets/img/artexp.jpg" alt="Fourth slide"></a>
                                 <div class="overlay-text font-weight-bold "><a href="./songMain.php" class="text-light">Cultural Music</a></div>
                             </div>

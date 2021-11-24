@@ -132,7 +132,7 @@ body{
                     <div class="pt-4 pb-4">
                         <div class="media">
                             <audio controls>
-                                <?php echo "<source src='./images/".$row['song']."' type='audio/mpeg'>"; ?>
+                                <?php echo "<source src='./songs/".$row['song']."' type='audio/mpeg'>"; ?>
                             </audio>
                             <div class="media-body">
                                 <div class="reviews-members-header">

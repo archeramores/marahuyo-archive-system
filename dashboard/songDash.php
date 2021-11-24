@@ -13,7 +13,7 @@ $user_data= check_login($con);
   if (isset($_POST['upload'])) {
 
     //path to store uploaded files
-    $target = "../images/".basename($_FILES['song']['name']);
+    $target = "../songs/".basename($_FILES['song']['name']);
     
     //connect to database
     $db = mysqli_connect ("remotemysql.com" , "kJPINILSBe", "9ItQywDQJ4", "kJPINILSBe");
@@ -29,7 +29,7 @@ $user_data= check_login($con);
     $sql= "INSERT INTO song_dash (title, song, artist) VALUES ('$title', '$song', '$artist')";
     mysqli_query($db, $sql); //stores submitted data into the database table song_dash
 
-    // move uploaded image into the folder images
+    // move uploaded image into the folder songs
     if (move_uploaded_file($_FILES['song']['tmp_name'], $target)) {
         header("location: songDash.php?uploadsuccess");
        
@@ -331,7 +331,7 @@ h3{
                           <td class="tableArtist" ><?php echo $row['artist']; ?></td>
                           <td>
                               <audio controls controlsList="nodownload">
-                                  <?php echo "<source src='../images/".$row['song']."'  type='audio/mpeg'>"; ?>
+                                  <?php echo "<source src='../songs/".$row['song']."'  type='audio/mpeg'>"; ?>
                                 </audio>
                             </td>
                           <td>

@@ -101,7 +101,7 @@ body{
             <h3 class="mx-auto d-flex font-weight-bold " style="padding-top:6rem; padding-bottom: 1rem;">Cultural Music</h3>
         </div><hr>
         <div class="row">
-            <p class="mx-auto d-flex text-justify p-sm-4 p-lg-4 p-md-3" style="text-indent:50px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium rerum iusto tempore quam molestiae quis qui expedita blanditiis in sint quas eligendi officia, autem repudiandae? Sapiente dolorem qui quam nemo quibusdam excepturi veritatis tempora corrupti illo eligendi itaque quisquam ad aperiam id amet nulla, consequatur, debitis totam provident adipisci a corporis voluptatibus ratione asperiores! Suscipit enim nulla aspernatur voluptatibus? Eum inventore autem dolore rem ipsam, illum molestias esse itaque reprehenderit voluptatem laboriosam hic vero quibusdam voluptas molestiae tenetur magni. Voluptate error atque voluptates maiores. Quod hic ab nobis voluptates perspiciatis molestiae dolores nulla adipisci ratione ipsam, soluta excepturi nostrum fugiat?</p>
+            <p class="mx-auto d-flex text-justify p-sm-4 p-lg-4 p-md-3" style="text-indent:50px;"></p>
         </div>
 
         <!--Loop the cards from mysql-->
@@ -131,7 +131,7 @@ body{
                     ?>
                     <div class="pt-4 pb-4">
                         <div class="media">
-                            <audio controls>
+                            <audio controls controlsList="nodownload">
                                 <?php echo "<source src='./songs/".$row['song']."' type='audio/mpeg'>"; ?>
                             </audio>
                             <div class="media-body">

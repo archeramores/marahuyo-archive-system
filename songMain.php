@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-<title>Folk Songs|Marahuyo</title>
+<title>Cultural Music | Marahuyo</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -81,7 +81,8 @@ body{
                         <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
                             <li><a href="./heritMain.php" class="dropdown-item">Intangible Heritage</a></li>
                             <li><a href="./artMain.php" class="dropdown-item">Cultural Arts</a></li>
-                            <li class="active"><a href="./festMain.php" class="dropdown-item active">Festive Events</a></li>
+                            <li><a href="./festMain.php" class="dropdown-item active">Festive Events</a></li>
+                            <li class="active"><a href="./songMain.php" class="dropdown-item ">Cultural Music</a></li>
                         </ul>
                     </li>
                     <li class="nav-item"><a href="./about.php" class="nav-link">About</a></li>
@@ -109,7 +110,7 @@ body{
             <div class="bg-white rounded shadow-sm p-4 mb-4 ">
                     
                     <?php
-                      $dbsongMain = mysqli_connect ("localhost" , "root", "", "file_upload");
+                      $dbsongMain = mysqli_connect ("remotemysql.com" , "kJPINILSBe", "9ItQywDQJ4", "kJPINILSBe");
                         
                       $count=1; //numbering of the contents of the table
                       $limit=9; //total number of records to be displayed per page

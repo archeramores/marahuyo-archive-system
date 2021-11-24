@@ -82,6 +82,7 @@ body{
                             <li><a href="./heritMain.php" class="dropdown-item">Intangible Heritage</a></li>
                             <li  class="active"><a href="./artMain.php" class="dropdown-item active">Cultural Arts</a></li>
                             <li ><a href="./festMain.php" class="dropdown-item">Festive Events</a></li>
+                            <li ><a href="./songMain.php" class="dropdown-item ">Cultural Music</a></li>
                         </ul>
                     </li>
                     <li class="nav-item"><a href="./about.php" class="nav-link">About</a></li>

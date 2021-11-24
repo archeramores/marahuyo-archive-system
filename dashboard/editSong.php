@@ -1,6 +1,6 @@
 <?php
-$songconn= mysqli_connect("localhost", "root","");
-$songdb= mysqli_select_db($songconn, 'file_upload');
+$songconn= mysqli_connect("remotemysql.com" , "kJPINILSBe", "9ItQywDQJ4");
+$songdb= mysqli_select_db($songconn, 'kJPINILSBe');
 
 
 if (isset($_POST['updatedata'])) {

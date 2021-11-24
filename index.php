@@ -263,13 +263,11 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
                     
                     <div class="card-body text-dark">
                         <h5 class="card-title" style="text-transform: uppercase; text-overflow: ellipsis; overflow: hidden"><b><?php echo $songrow['title'];?></b></h5>
-                        <audio controls controlsList="nodownload" style="width: 170px;">
+                        <audio controls controlsList="nodownload" style="width: 190px;">
                             <?php echo "<source src='./songs/".$songrow['song']."' type='audio/mpeg'>"; ?>
                         </audio>
                     </div>
-                    <div>
-                        <a href="./songMain.php"><button type="button" class="btn btn-danger float-right mr-2 readBtn " name="festreadBtn" data-toggle="modal" data-id="<?php echo $festrow['id'];?>">Go to festive events <i class="fas fa-angle-right"></i></button></a></br></br>
-                     </div>
+                    
                 </div>
                 <?php
                     }

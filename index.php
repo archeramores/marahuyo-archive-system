@@ -263,7 +263,9 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
                     
                     <div class="card-body text-dark">
                         <h5 class="card-title" style="text-transform: uppercase; text-overflow: ellipsis; overflow: hidden"><b><?php echo $songrow['title'];?></b></h5>
-                        <audio controls><?php echo "<source src='./songs/".$songrow['artist']."' type='audio/mpeg'>" ;?></audio>
+                        <audio controls controlsList="nodownload">
+                            <?php echo "<source src='./songs/".$songrow['song']."' type='audio/mpeg'>"; ?>
+                        </audio>
                     </div>
                     <div>
                         <a href="./songMain.php"><button type="button" class="btn btn-danger float-right mr-2 readBtn " name="festreadBtn" data-toggle="modal" data-id="<?php echo $festrow['id'];?>">Go to festive events <i class="fas fa-angle-right"></i></button></a></br></br>
@@ -341,7 +343,7 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
                         <div class="carousel-item">
                             <div>
                                 <a href="./festMain.php">
-                                <img class="d-block img-fluid" style="height: 300px; width:600px;"src="./assets/img/artexp.png" alt="Fourth slide"></a>
+                                <img class="d-block img-fluid" style="height: 300px; width:600px;"src="./assets/img/artexp.jpg" alt="Fourth slide"></a>
                                 <div class="overlay-text font-weight-bold "><a href="./songMain.php" class="text-light">Cultural Music</a></div>
                             </div>
                         </div>

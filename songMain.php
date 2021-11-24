@@ -137,12 +137,12 @@ body{
                             <div class="media-body">
                                 <div class="reviews-members-header">
                                     <p hidden><?php echo $row['id'];?></p>
-                                    <h4 class="mb-1" id="title" name="title" style="text-transform:uppercase;"><?php echo $row['title']; ?></h4>
+                                    <h4 class="mb-1" id="title" name="title" style="text-transform:uppercase; "margin-left: 2rem;"><?php echo $row['title']; ?></h4>
                                     
                                 </div>
              
                                 <div class="reviews-members-body">
-                                <p class="d-inline-block text-justify p-sm-5 p-md-4 p-lg-1" id="arist_" name="arist_"><i><?php echo $row['artist'];?></i></p>
+                                <p class="d-inline-block text-justify p-sm-5 p-md-4 p-lg-1" style="margin-left: 2rem;" id="arist_" name="arist_"><i><?php echo $row['artist'];?></i></p>
                    
                                 </div>
                                 

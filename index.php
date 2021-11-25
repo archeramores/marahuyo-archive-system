@@ -150,7 +150,7 @@ while ($viewrow = mysqli_fetch_assoc($find_counts_qry)) {
     
     <div class="container-fluid">
         <section>
-            <div class="row parallax" style="background-image: url('./assets/img/bats.jpg'); filter: grayscale(10%); height:100%; background-attachment: fixed; background-position: center;background-repeat: no-repeat;background-size: cover;">
+            <div class="row parallax" style="background-image: url('./assets/img/taal.jpg'); filter: grayscale(10%); height:100%; background-attachment: fixed; background-position: center;background-repeat: no-repeat;background-size: cover;">
                 <div class="mx-auto d-flex" style="">
                     <img class="mx-auto d-flex img-fluid  " max-height="auto" max-width="auto" style="background: rgb(139, 0, 0, 0.8);padding-top: 2rem; padding-bottom: 2rem; margin-top:20rem; margin-bottom:20rem;" src="./assets/img/marahuyologo.png" >
                     

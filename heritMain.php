@@ -258,6 +258,9 @@ body{
             <p>
                 <a href="festMain.php" class="text-white">Festive Events</a>
             </p>
+            <p>
+                <a href="songMain.php" class="text-white">Cultural Music</a>
+            </p>
             
             </div>
             <!-- Grid column -->

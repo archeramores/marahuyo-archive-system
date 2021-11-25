@@ -81,8 +81,8 @@ body{
                         <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
                             <li><a href="./heritMain.php" class="dropdown-item">Intangible Heritage</a></li>
                             <li><a href="./artMain.php" class="dropdown-item">Cultural Arts</a></li>
-                            <li><a href="./festMain.php" class="dropdown-item active">Festive Events</a></li>
-                            <li class="active"><a href="./songMain.php" class="dropdown-item ">Cultural Music</a></li>
+                            <li><a href="./festMain.php" class="dropdown-item">Festive Events</a></li>
+                            <li><a href="./songMain.php" class="dropdown-item active">Cultural Music</a></li>
                         </ul>
                     </li>
                     <li class="nav-item"><a href="./about.php" class="nav-link">About</a></li>
@@ -252,7 +252,9 @@ body{
             <p>
                 <a href="festMain.php" class="text-white">Festive Events</a>
             </p>
-            
+            <p>
+                <a href="songMain.php" class="text-white">Cultural Music</a>
+            </p>
             </div>
             <!-- Grid column -->
 
